@@ -7,12 +7,12 @@ import Info from "./Info"
 export default function App() {
     return (
         <>
-         <Nav />
-         <Routes>
-            <Route path="/about" element={<About />} />
-            <Route path="/work" element={<Work />} />
-            <Route path="/info" element={<Info />} />
-         </Routes>
+            <Nav />
+            <Routes>
+                <Route path="/about" element={<About />} />
+                <Route path="/work" element={<Work />} />
+                <Route path="/info" element={<Info />} />
+            </Routes>
         </>
     )
 }
